@@ -1,24 +1,24 @@
 const produtos = [
     {
-        img: '../images/img-cafe-melitta.png',
+        img: './images/img-cafe-melitta.png',
         nome: 'Café Melitta',
         preco: 79
     },
 
     {
-        img: '../images/img-cafeetiopia.webp',
+        img: './images/img-cafeetiopia.webp',
         nome: 'Café Etiopia',
         preco: 144 
     },
 
     {
-        img: '../images/img-cafeglobinho.png',
+        img: './images/img-cafeglobinho.png',
         nome: 'Café Globinho',
         preco: 259
     },
 
     {
-        img: '../images/img-cafelylacafe.webp',
+        img: './images/img-cafelylacafe.webp',
         nome: 'Café Lylacafe',
         preco: 120
     }
