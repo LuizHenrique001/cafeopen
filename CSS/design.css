@@ -6,6 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@400;600 & display=swap');
 
+@import url('https://fonts.googleapis.com/css2? family= DM+Serif+Display & display=swap');
 
 /* Barra de navegação */
 
@@ -54,7 +55,7 @@ header {
     text-align: center;
     color: white;
     font-size: 55px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DM serif display', serif;
     padding-top: 70px;
 }
 
@@ -76,7 +77,7 @@ header {
 .btn_banner a {
     background-color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 14px 47px;
+    padding: 14px 52px;
     border-radius: 30px;
     color: black;
     transition: .3s;
@@ -85,7 +86,7 @@ header {
 .btn_banner a:hover {
     color: white;
     background-color: rgb(31, 31, 31);
-    padding: 14px 52px;
+    padding: 14px 57px;
 }
 
 

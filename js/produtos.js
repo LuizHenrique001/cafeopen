@@ -21,6 +21,36 @@ const produtos = [
         img: './images/img-cafelylacafe.webp',
         nome: 'Café Lylacafe',
         preco: 120
+    },
+
+    {
+        img: './images/cafe-napoletano.webp',
+        nome: 'Café Napoletano',
+        preco: 68
+    },
+
+    {
+        img: './images/cafe-arabica.png',
+        nome: 'Café Arabica',
+        preco: 269
+    },
+
+    {   
+        img: './images/cafe-crema.webp',
+        nome: 'Café Crema',
+        preco: 112
+    },
+
+    {
+        img: './images/cafe-janus.webp',
+        nome: 'Café Janus',
+        preco: 45
+    },
+
+    {
+        img: './images/cafedocentro.png',
+        nome: 'Café do Centro',
+        preco: 56
     }
 
 ]
