@@ -151,13 +151,21 @@ header {
 }
 
 .container_img_grao h1 {
-    font-family: 'Montserrat', sans-serif;
-    color: #ffe4ad;
+    font-family: 'DM Serif Display', serif;
+    line-height: 90px;
+    color: #ffffff;
     background-color: rgba(0, 0, 0, 0.72);
     height: 100%;
     padding: 120px 0px 30px 30px;
-    font-size: 70px;
-    font-weight: bold;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 768px) {
+    .container_img_grao h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
 }
 
 
