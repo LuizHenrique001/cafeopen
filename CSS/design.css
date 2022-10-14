@@ -142,6 +142,24 @@ header {
     color: rgb(0, 0, 0);
 }
 
+.container_img_grao {
+    background-image: url('../images/coffee-beans_1_1024x1024.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+.container_img_grao h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffe4ad;
+    background-color: rgba(0, 0, 0, 0.72);
+    height: 100%;
+    padding: 120px 0px 30px 30px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
 
 /* Produtos do site */
 
