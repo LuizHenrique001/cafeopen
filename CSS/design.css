@@ -150,6 +150,7 @@ header {
     height: 300px;
     background-color: rgb(255, 255, 255);
     margin: 30px 15px;
+    border-radius: 5px;
 }
 
 .produtos img {
@@ -178,8 +179,9 @@ header {
     font-weight: bold;
     margin-top: 30px;
     background-color: rgb(74, 38, 25);
-    padding: 20px;
+    padding: 15px;
     transition: .4s;
+    border-radius: 0px 0px 3px 3px;
 }
 
 .btn_adicionar:hover {
