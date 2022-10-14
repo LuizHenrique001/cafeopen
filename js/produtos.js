@@ -2,25 +2,25 @@ const produtos = [
     {
         img: './images/img-cafe-melitta.png',
         nome: 'Café Melitta',
-        preco: 79
+        preco: 41
     },
 
     {
         img: './images/img-cafeetiopia.webp',
         nome: 'Café Etiopia',
-        preco: 144 
+        preco: 60
     },
 
     {
         img: './images/img-cafeglobinho.png',
         nome: 'Café Globinho',
-        preco: 259
+        preco: 109
     },
 
     {
         img: './images/img-cafelylacafe.webp',
         nome: 'Café Lylacafe',
-        preco: 120
+        preco: 55
     },
 
     {
@@ -32,13 +32,13 @@ const produtos = [
     {
         img: './images/cafe-arabica.png',
         nome: 'Café Arabica',
-        preco: 269
+        preco: 87
     },
 
     {   
         img: './images/cafe-crema.webp',
         nome: 'Café Crema',
-        preco: 112
+        preco: 39
     },
 
     {
