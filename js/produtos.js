@@ -60,7 +60,7 @@ cafeOpen = () => {
     produtos.map((val) => {
         mostrarProdutos.innerHTML += `
         <div class="produtos">
-            <img src="${val.img}" alt="Img">
+            <img src=".${val.img}" alt="Img">
             <p class="nome_produto">
                 ${val.nome}
             </p>
