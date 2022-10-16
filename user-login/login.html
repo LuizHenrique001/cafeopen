@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../CSS/design-login.css">
 
     <!-- JS -->
-    <script src="../js/login-verificar.js"></script>
+    <script src="../js/login-verificar.js" defer></script>
 </head>
 <body class="background_login">
     <header>
@@ -32,16 +32,19 @@
             <p class="info_usuario">
                 Nome
             </p>
-            <input type="text" class="input_login" placeholder="Nome">
+            <input type="text" class="input_login" placeholder="Nome" id="id_usuario">
+
             <p class="info_usuario">
                 Gmail
             </p>
-            <input type="email" class="input_login" placeholder="Gmail">
+            <input type="email" class="input_login" placeholder="Gmail" id="id_gmail">
+
             <p class="info_usuario">
                 Senha
             </p>
-            <input type="password" class="input_login" placeholder="Senha">
-            <button type="submit" class="btn_login">
+            <input type="password" class="input_login" placeholder="Senha" id="id_senha">
+
+            <button type="submit" class="btn_login" onclick="verificarLogin()">
                 Logar
             </button>
         </div>
