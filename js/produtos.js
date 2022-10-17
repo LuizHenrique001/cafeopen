@@ -51,6 +51,30 @@ const produtos = [
         img: './images/cafedocentro.png',
         nome: 'Café do Centro',
         preco: 56
+    },
+
+    {
+        img: './images/cafe-spress.png',
+        nome: 'Café Spress',
+        preco: 35
+    },
+
+    {
+        img: './images/cafe-florao.png',
+        nome: 'Café do Florão',
+        preco: 80
+    },
+    
+    {
+        img: './images/cafe-caturra.png',
+        nome: 'Café do Caturra',
+        preco: 40
+    },
+
+    {
+        img: './images/cafe-pilao.png',
+        nome: 'Café do Pilão',
+        preco: 50
     }
 
 ]
