@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Café Open - Loja</title>
+    <title>Café Open - Carrinho</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="../CSS/design.css">
-    <link rel="stylesheet" href="../CSS/design-loja.css">
+    <link rel="stylesheet" href="../CSS/design-carrinho.css">
 
     <!-- JS -->
+    <script src="../js/carrinho-system.js"defer></script>
     <script src="../js/produtos.js" defer></script>
     <script src="../js/produtos-loja.js" defer></script>
-
 </head>
-<body>
+<body class="background-carrinho">
     <header>
         <nav class="navbar">
             <p class="btn_navbar">
@@ -28,17 +28,24 @@
             </a>
         </nav>
     </header>
-    <div class="container_banner_loja">
-        <div class="bloco_banner_loja">
-            <img src="../images/banner-copo-cafe.jpg" alt="Img">
+    <h1 class="titulo_carrinho">
+        Produtos no seu Carrinho
+    </h1>
+    <main class="main_carrinho">
+        <div class="container_carrinho">
+            <div class="bloco_carrinho">
+                <img src="../images/cafe-caturra.png" alt="Img">
+            </div>
+            <div class="bloco2_carrinho">
+                <p>
+                    Café Nylon
+                </p>
+                <p>
+                    R$ 55,00
+                </p>
+            </div>
         </div>
-        <div class="bloco_banner_loja">
-            <img src="../images/banner-copo-cafe2.jpg" alt="Img">
-        </div>
-    </div>
-    <div class="container_produtos_loja">
-        <!-- Produtos do site -->
-    </div>
+    </main>
     <footer>
         <p class="btn_footer">
             <a href="../index.html">Home</a>

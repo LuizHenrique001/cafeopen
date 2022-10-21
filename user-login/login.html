@@ -21,7 +21,9 @@
                 <a href="../loja/loja.html">Produtos</a>
                 <a href="login.html">Login</a>
             </p>
-            <img src="../images/compras.png" alt="Img">
+            <a href="../loja/carrinho.html">
+                <img src="../images/compras.png" alt="Img">
+            </a>
         </nav>
     </header>
     <main class="container_login">
@@ -29,24 +31,18 @@
             <h1>
                 Login
             </h1>
-            <p class="info_usuario">
-                Nome
-            </p>
+            <p class="info_usuario">Nome</p>
             <input type="text" class="input_login" placeholder="Nome" id="usuario">
 
-            <p class="info_usuario">
-                Gmail
-            </p>
+            <p class="info_usuario">Gmail</p>
             <input type="email" class="input_login" placeholder="Gmail" id="gmail">
 
-            <p class="info_usuario">
-                Senha
-            </p>
+            <p class="info_usuario">Senha</p>
             <input type="password" class="input_login" placeholder="Senha" id="senha">
 
-            <button type="submit" class="btn_login" onclick="verificarLogin()">
-                Logar
-            </button>
+            <p class="btn_login">
+                <a href="#" onclick="verificarLogin()">Logar</a>
+            </p>
         </div>
     </main>
     <footer>
