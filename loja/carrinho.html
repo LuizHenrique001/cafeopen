@@ -9,11 +9,14 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../CSS/design.css">
     <link rel="stylesheet" href="../CSS/design-carrinho.css">
+    <link rel="stylesheet" href="../CSS/design-login.css">
 
     <!-- JS -->
     <script src="../js/carrinho-system.js"defer></script>
     <script src="../js/produtos.js" defer></script>
     <script src="../js/produtos-loja.js" defer></script>
+    <script src="../js/login-verificar.js" defer></script>
+
 </head>
 <body class="background-carrinho">
     <header>
@@ -21,8 +24,11 @@
             <p class="btn_navbar">
                 <a href="../index.html">Home</a>
                 <a href="loja.html">Produtos</a>
-                <a href="../user-login/login.html">Login</a>
+                <a href="../user-login/login.html" id="login_none_cod5">Login</a>
             </p>
+            <a href="../user-login/login-conta-user.html" class="icone_login">
+                <img src="../images/icone-usuario-login.png" alt="Img">
+            </a>
             <a href="carrinho.html">
                 <img src="../images/compras.png" alt="Img">
             </a>
@@ -54,11 +60,20 @@
             <a href="loja.html">Produtos</a>
         </p>
         <p class="btn_footer">
-            <a href="../user-login/login.html">Login</a>
+            <a href="../user-login/login.html" id="login_none_cod6">Login</a>
         </p>
         <p class="direitos_autorais">
             &copy; 2022 - Café Open
         </p>
     </footer>
+    <script>
+        let verific = localStorage.getItem('verificar_login')
+        let login_none_cod5 = document.querySelector('a#login_none_cod5')
+        let login_none_cod6 = document.querySelector('a#login_none_cod6')
+        if(verific == 'ContaCriada'){
+            login_none_cod5.style.display = 'none'
+            login_none_cod6.style.display = 'none'
+        }
+    </script>
 </body>
 </html>

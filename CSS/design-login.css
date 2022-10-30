@@ -17,7 +17,7 @@
 
 .bloco_login {
     width: 300px;
-    height: 450px;
+    height: 370px;
     border-radius: 5px;
     background-color: white;
     margin: 60px 0px 80px 0px;
@@ -36,7 +36,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 17px;
-    margin-top: 55px;
+    margin-top: 65px;
     text-align: center;
 }
 
@@ -70,4 +70,75 @@
     outline: none;
     border: 1px solid rgb(0, 0, 0);
     font-size: 17px;
+}
+
+.icone_login {
+    display: none;
+}
+
+.icone_login img {
+    width: 40px;
+}
+
+/* Conta usuário */
+
+.container_user {
+    width: 140px;
+    height: 140px;
+    margin: 20px auto;
+}
+
+.container_user img {
+    width: 140px;
+}
+
+.btn_voltar {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn_voltar a {
+    color:#005e67;
+    border: 2px solid #005e67;
+    border-radius: 10px;
+    padding: 12px 70px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.btn_voltar a:hover {
+    background-color: #005e67;
+    color: white;
+}
+
+.btn_sair {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn_sair a {
+    color: white;
+    background-color: #cf1a1a;
+    border-radius: 10px;
+    padding: 12px 80px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.btn_sair a:hover {
+    background-color: #801212;
+}
+
+.background_conta {
+    background-color: #08080e;
+}
+
+.info_gmail_user {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
 }

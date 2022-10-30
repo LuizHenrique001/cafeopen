@@ -8,10 +8,12 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="CSS/design.css">
+    <link rel="stylesheet" href="CSS/design-login.css">
 
     <!-- JS -->
     <script src="js/produtos.js" defer></script>
     <script src="js/carrinho-system.js" defer></script>
+    <script src="js/login-verificar.js" defer></script>
 </head>
 <body>
     <header>
@@ -19,8 +21,11 @@
             <p class="btn_navbar">
                 <a href="index.html">Home</a>
                 <a href="loja/loja.html">Produtos</a>
-                <a href="user-login/login.html">Login</a>
+                <a href="user-login/login.html" id="login_none_cod1">Login</a>
             </p>
+            <a href="user-login/login-conta-user.html" class="icone_login">
+                <img src="images/icone-usuario-login.png" alt="Img">
+            </a>
             <a href="loja/carrinho.html">
                 <img src="images/compras.png" alt="Img">
             </a>
@@ -71,11 +76,18 @@
             <a href="loja/loja.html">Produtos</a>
         </p>
         <p class="btn_footer">
-            <a href="user-login/login.html">Login</a>
+            <a href="user-login/login.html" id="login_none_cod2">Login</a>
         </p>
         <p class="direitos_autorais">
             &copy; 2022 - Café Open
         </p>
     </footer>
+    <script>
+        let verific = localStorage.getItem('verificar_login')
+        let login_none_cod2 = document.querySelector('a#login_none_cod2')
+        if(verific == 'ContaCriada'){
+            login_none_cod2.style.display = 'none'
+        }
+    </script>
 </body>
 </html>
