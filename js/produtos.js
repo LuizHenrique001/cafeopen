@@ -78,6 +78,7 @@ const produtos = [
     }
 
 ]
+
 let contador = 0
 let mostrarProdutos = document.querySelector('div.container_produtos')
 cafeOpen = () => {

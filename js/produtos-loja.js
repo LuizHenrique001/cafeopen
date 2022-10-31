@@ -14,7 +14,7 @@ cafeOpenLoja = () => {
                 <a href="#">Adicionar</a>
             </p>
         </div>
-        `//ponto adicionado no val.img para que as imagens aparecam
+        `//ponto adicionado no "val.img" para que as imagens aparecam
     })
 }
 cafeOpenLoja()

@@ -9,30 +9,31 @@ let icone_login = document.querySelector('a.icone_login')
 function verificarLogin() {
     let gmail_format = gmail.value
     let senha_format = senha.value
-    //Variaveis abaixo para confirmar o login
+
     if(
-        (gmail_format != '' && gmail_format != verificar_gmail) && (senha_format != verificar_senha && senha_format != '')){
+        (gmail_format != '' && gmail_format != verificar_gmail) && (senha_format != '' && senha_format != verificar_senha)){
         alert('Logado com sucesso!')
         window.location.href = '../index.html'//Vai retornar a página inicial
         localStorage.setItem('gmail', gmail_format)
         localStorage.setItem('senha', senha_format)
         localStorage.setItem('verificar_login', 'ContaCriada')
 
+        //Para aparecer o icone da conta
         loginNone.style.display = 'none'
         icone_login.style.display = 'flex'
     }
     else if(gmail_format == '' && senha_format == ''){
-        alert('Campo Vazio')
+        alert('Campo Vazio')//Erro para os dois campos vazios
     }
     else if(gmail_format == '' || senha_format == ''){
-        alert('Campo Vazio')
+        alert('Campo Vazio')//Erro se apenas um estar vazio
     }
     else {
-        alert('Conta já existente')
+        alert('Conta já existente')//Erro caso a comta já exista
     }
 }
 
-if(verificar_login == 'ContaCriada'){
+if(verificar_login == 'ContaCriada'){//Verificar se a conta está logada
     icone_login.style.display = 'flex'
     loginNone.style.display = 'none'
 }

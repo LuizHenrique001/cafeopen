@@ -1,5 +1,0 @@
-const lista = [
-    {
-        nome: 'Cleyton'
-    }
-]

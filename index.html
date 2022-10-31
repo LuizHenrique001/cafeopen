@@ -9,7 +9,6 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/icone-cafe-open.png" type="image/x-icon">
 
-
     <!-- CSS -->
     <link rel="stylesheet" href="CSS/design.css">
     <link rel="stylesheet" href="CSS/design-login.css">
@@ -24,6 +23,7 @@
         <div class="container_logo_site">
             <img src="images/logo-cafeopen.png" alt="Img">
         </div>
+
         <nav class="navbar">
             <p class="btn_navbar">
                 <a href="index.html">Home</a>
@@ -37,9 +37,11 @@
                 <img src="images/compras.png" alt="Img">
             </a>
         </nav>
+        
     </header>
     <main class="banner_site">
         <h1>CAFÉ OPEN</h1>
+
         <p>Sinta o cheiro e o sabor de um dos <br> melhores cafés do Brasil.</p>
         <p class="btn_banner">
             <a href="loja/loja.html">
@@ -48,24 +50,28 @@
         </p>
     </main>
     <div class="container_mkt">
+
         <div class="bloco_mkt">
             <img src="images/vetor-graodecafe.png" alt="Img">
             <p>
                 Nós produzimos <br> nosso próprio grão de <br> café em uma das <br> maiores plantações do <br> Brasil.
             </p>
         </div>
+
         <div class="bloco_mkt">
             <img src="images/vetor-xicaradecafe.png" alt="Img">
             <p>
                 Sinta o aroma doce do nosso café junto com um pão francês.
             </p>
         </div>
+
         <div class="bloco_mkt">
             <img src="images/coffee-maker.png" alt="Img">
             <p>
                 Maquinas de última geração para moer melhor nossos grãos.
             </p>
         </div>
+
     </div>
     <div class="container_img_grao">
         <h1>
@@ -85,11 +91,19 @@
         <p class="btn_footer">
             <a href="user-login/login.html" id="login_none_cod2">Login</a>
         </p>
+        <div class="informacoes_empresa">
+            <p>
+                CNPJ:453.049.651/627-93 <br>
+                Contato: (11) 9 3242-5454 <br>
+                Localizado: Rua 00/Predio 00
+            </p>
+        </div>
         <p class="direitos_autorais">
             &copy; 2022 - Café Open
         </p>
     </footer>
     <script>
+        //Verificar se a conta está logada
         let verific = localStorage.getItem('verificar_login')
         let login_none_cod2 = document.querySelector('a#login_none_cod2')
         if(verific == 'ContaCriada'){

@@ -124,6 +124,7 @@ header {
     align-items: center;
     text-align: center;
     background-color: #492410;
+    padding: 20px 0px;
 }
 
 .container_mkt img {
@@ -135,7 +136,7 @@ header {
     width: 220px;
     height: 310px;
     background-color: #e9e9e9;
-    margin: 20px 17px;
+    margin: 30px 17px;
     text-align: center;
     border-radius: 10px;
     display: inline-table;
@@ -175,6 +176,7 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+    /* Ajustar o texto para Mobile */
     .container_img_grao h1 {
         font-size: 45px;
         line-height: 60px;
@@ -286,6 +288,18 @@ footer {
 .direitos_autorais {
     font-family: 'Montserrat', sans-serif;
     padding: 50px 0px 15px 0px;
-    color: rgb(126, 126, 126);
+    color: rgb(50, 50, 50);
     text-align: center;
+}
+
+.informacoes_empresa {
+    width: 100%;
+    height: 100%;
+    padding-left: 8%;
+}
+
+.informacoes_empresa p {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(50, 50, 50);
+    line-height: 22px;
 }
