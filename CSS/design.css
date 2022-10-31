@@ -23,7 +23,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: right;
-    width: 100%;
+    width: 85%;
     height: 70px;
     background-color: black;
 }
@@ -52,6 +52,18 @@ header {
     color: rgb(109, 109, 109);
 }
 
+.container_logo_site {
+    width: 15%;
+    margin-right: auto;
+    background-color: black;
+}
+
+.container_logo_site img {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0px 0px 10px;
+}
+
 
 /* Banner principal */
 
@@ -64,7 +76,7 @@ header {
 
 .banner_site h1 {
     text-align: center;
-    color: #703210;
+    color: rgb(112, 50, 16);
     font-size: 55px;
     font-family: 'DM serif display', serif;
     padding-top: 70px;
@@ -97,7 +109,7 @@ header {
 .btn_banner a:hover {
     color: white;
     background-color: rgb(31, 31, 31);
-    padding: 14px 57px;
+    padding: 14px 64px;
 }
 
 
