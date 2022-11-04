@@ -21,7 +21,7 @@
 
 .container_carrinho {
     display: inline-table;
-    width: 370px;
+    width: 390px;
     height: 100%;
     background-color: #181818;
     border-radius: 10px;
@@ -30,15 +30,23 @@
     box-shadow:  0px 0px 8px rgba(0, 0, 0, 0.300);
 }
 
+.container_itens_compra {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    padding-top: 60px;
+}
+
 .nome_produto_carrinho {
     font-family: 'Montserrat', sans-serif;
-    font-size: 19px;
+    font-size: 17px;
     line-height: 40px;
     color: white;
 }
 
 .bloco_carrinho {
-    display: flex;
+    display: inline-table;
     align-items: center;
     margin: 9px;
 }
@@ -48,7 +56,9 @@
 }
 
 .bloco2_carrinho {
-    margin: 18px 0px 0px 30px;
+    display: inline-table;
+    width: 90px;
+    height: 90px;
 }
 
 .titulo_carrinho {
@@ -80,23 +90,24 @@
 }
 
 .aumentar_quantidade {
-    width: 100%;
+    width: 70px;
     height: 40px;
+    padding-left: 30px;
 }
 
 .aumentar_quantidade input {
-    margin: 40px 0px 0px 28px;
     padding: 8px 10px;
     text-align: center;
     outline: none;
     border: none;
-    width: 85px;
-    height: 40px;
+    width: 90px;
+    height: 45px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 18px;
     background-color: black;
     color: white;
+    border-radius: 7px;
 }
 
 .btn_finalizar_compra {
