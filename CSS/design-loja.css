@@ -18,3 +18,12 @@
         display: flex;
     }
 }
+
+.cafe_lancamentos {
+    width: 100%;
+    height: 100%;
+}
+
+.cafe_lancamentos img {
+    width: 100%;
+}
