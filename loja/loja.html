@@ -13,11 +13,13 @@
     <link rel="stylesheet" href="../CSS/design.css">
     <link rel="stylesheet" href="../CSS/design-loja.css">
     <link rel="stylesheet" href="../CSS/design-login.css">
+    <link rel="stylesheet" href="../CSS/design-carrinho.css">
 
     <!-- JS -->
     <script src="../js/produtos.js" defer></script>
     <script src="../js/produtos-loja.js" defer></script>
     <script src="../js/login-verificar.js" defer></script>
+    <script src="../js/carrinho-system.js" defer></script>
 
 </head>
 <body>
@@ -25,8 +27,8 @@
         <div class="container_logo_site">
             <img src="../images/logo-cafeopen.png" alt="Img">
         </div>
-
         <nav class="navbar">
+            <input type="search" id="barra_pesquisa" onkeyup="buscarProdutos()" placeholder="Buscar...">
             <p class="btn_navbar">
                 <a href="../index.html">Home</a>
                 <a href="loja.html">Produtos</a>
@@ -41,6 +43,49 @@
         </nav>
         
     </header>
+    <div class="dadosBusca">
+        <ol id='list'>
+            <li class="busca-itens">
+                <a href="#Café Melitta">Café Melitta</a>
+            </li>
+            <li class="busca-itens">
+                <a href="#Café Etiopia">Café Etiopia</a>
+            </li>
+            <li class="busca-itens">
+                <a href="#Café Globinho">Café Globinho</a>
+            </li>
+            <li class="busca-itens">
+                <a href="#Café Lylacafe">Café Lylacafe</a>
+            </li>
+            <li class="busca-itens">
+                <a href="#Café Napoletano">Café Napoletano</a>
+            </li>
+            <li class="busca-itens">
+                <a href="#Café Arabica">Café Arabica</a>
+            </li>
+            <li class="busca-itens">
+                <a href="#Café Crema">Café Crema</a>
+            </li>
+            <li class="busca-itens">
+                <a href="#Café Janus">Café Janus</a>
+            </li>
+            <li class="busca-itens">
+                <a href="#Café do Centro">Café do Centro</a>
+            </li>
+            <li class="busca-itens">
+                <a href="#Café Spress">Café Spress</a>
+            </li>
+            <li class="busca-itens">
+                <a href="#Café do Florão">Café do Florão</a>
+            </li>
+            <li class="busca-itens">
+                <a href="#Café do Caturra">Café do Caturra</a>
+            </li>
+            <li class="busca-itens">
+                <a href="#Café do Pilão">Café do Pilão</a>
+            </li>
+        </ol>
+    </div>
     <div class="cafe_lancamentos">
         <picture>
             <source media="(max-width: 768px)" srcset="../images/banner-promocao-mobile.png">

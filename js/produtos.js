@@ -79,13 +79,11 @@ const produtos = [
 
 ]
 
-let contador = 0
 let mostrarProdutos = document.querySelector('div.container_produtos')
 cafeOpen = () => {
     produtos.map((val) => {
-        ++contador
         mostrarProdutos.innerHTML += `
-        <div class="produtos" id="${contador}">
+        <div class="produtos" id="${val.nome}">
             <img src="${val.img}" alt="Img">
             <p class="nome_produto">
                 ${val.nome}
@@ -94,7 +92,7 @@ cafeOpen = () => {
                 R$ ${val.preco},00
             </p>
             <p class="btn_adicionar">
-                <a href="#" onclick="adicionar(${contador})">Adicionar</a>
+                <a href="#">Adicionar</a>
             </p>
         </div>
         `
