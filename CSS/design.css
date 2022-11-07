@@ -321,3 +321,70 @@ footer {
     color: rgb(50, 50, 50);
     line-height: 22px;
 }
+
+.enviar_pergunta_input {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.container_enviar_pergunta_input {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+.enviar_pergunta_nome {
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 5px 0px;
+}
+
+.enviar_pergunta_gmail {
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 5px 0px;
+}
+
+.campo_pergunta {
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 5px 0px;
+    height: 80px;
+}
+
+.btn_enviar_pergunta {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    background-color: slateblue;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+.btn_enviar_pergunta:hover {
+    background-color: rgb(75, 64, 149);
+}
